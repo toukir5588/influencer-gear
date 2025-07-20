@@ -1,0 +1,251 @@
+/* 
+@media screen and (max-width:) {
+    
+} */
+
+
+@media screen and (max-width:576px) {
+    
+ /* start nav bar responsive */
+ nav,
+ .nav_list ul,
+ .banner_area{
+flex-direction: column;
+align-items: center;
+ }
+ 
+ .nav_list ul li i{
+   display: none;
+ }
+
+ nav .logo i{
+     display: inline;
+     
+ }
+
+ nav {
+    
+     margin: 10px auto;
+     margin-bottom: 0;
+ }
+ nav .logo{
+    /* max-width: 567px;
+    height: 50px; */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     position: relative;
+ }
+
+ nav .logo .search{
+     position: absolute; 
+      left: -25%;
+      top: 5px;
+ }
+ nav .logo .shopping{
+     position: absolute; 
+      right: -70px;
+      top: 5px;
+ }
+
+
+.banner_area{
+    flex-direction: column-reverse;
+    margin-top: 0px;
+}
+
+.banner_area .banner_img{
+    max-width: 257px;
+    margin-bottom: 30px;
+}
+
+.banner_area .banner_content{
+    max-width: 357px;
+    text-align: center;
+}
+.banner_area .banner_content h1{
+    font-size: 28px;
+}
+
+
+.banner_2{
+   
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   
+}
+
+
+.banner_2 img{
+    min-width: 30px;
+    padding: 10px 5px;
+}
+
+.card_area .card_parent{
+    /* grid-template-columns: repeat(1, 1fr); */
+    /* grid-template-columns: 330px; */
+    /* grid-template-columns: 1fr; */
+    /* justify-content: center; */
+    /* max-width: 330px; */
+    align-items: center;
+    justify-content: center;
+    /* gap: 0; */
+    flex-direction: column;
+
+}
+
+/* .card_area .card_parent{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 330px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    max-width: 330px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex-direction: column;
+    padding: 50px;
+
+} */
+
+.card_area .card_parent{
+    /* grid-template-columns: repeat(1, 1fr); */
+    /* grid-template-columns: 330px; */
+    /* grid-template-columns: 1fr; */
+    /* justify-content: center; */
+    /* max-width: 330px; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    /* gap: 0; */
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+
+
+.card_area .card_parent a{
+    right: 45%;
+    bottom: -50px;
+}
+
+    
+
+
+ /* .card_area .card_parent .card_child{
+      
+    margin: 10px 10px;
+    
+} */
+
+
+.Featured_products_place{
+    flex-direction: column-reverse;
+    
+}
+
+.Featured_products_place .cotans{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0 20px;
+    
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+ nav,
+ .nav_list ul{
+flex-direction: column;
+ }
+
+ .banner_area{
+    flex-direction: column-reverse;
+    margin-top: 0px;
+}
+
+
+.nav_list ul{
+text-align: center;
+
+ }
+
+.banner_area .banner_content{
+    /* max-width: 357px; */
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.banner_2{
+   
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   
+}
+
+
+.card_area .card_parent{
+    /* grid-template-columns: repeat(1, 1fr); */
+    /* grid-template-columns: 330px; */
+    /* grid-template-columns: 1fr; */
+    /* justify-content: center; */
+    /* max-width: 330px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.card_area .card_parent .last_child{
+    display: none;
+}
+
+.card_area .card_parent a{
+    right: 45%;
+    bottom: -50px;
+}
+
+.Featured_products_place{
+    flex-direction: column-reverse;
+    
+}
+
+.Featured_products_place .cotans{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0 30px;
+    
+}
+
+    
+}
