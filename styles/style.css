@@ -159,16 +159,6 @@ width: 100%;
     
 }
 
-/* .card_area .card_parent{
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    display: flex;
-    gap: 30px;
-    margin: 30px 0;
-    flex-wrap: wrap;
-    
-} */
-
 .card_area .card_parent{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -179,13 +169,17 @@ width: 100%;
     
 }
 
+
+
 .card_area .card_parent .card_child {
    /* max-width: 330px; */
     padding: 17px 15px;
     box-shadow:   0 4px 15px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    /* background: red; */
     
 }
+
 .card_area .card_parent .card_child img{
     width: 100%;
     border-radius: 5px;
