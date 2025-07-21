@@ -1,9 +1,8 @@
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.nav_container{
-    max-width: 1180px;
-    margin: 50px auto;
+.nav_container {
+  max-width: 1180px;
+  margin: 50px auto;
 }
-
