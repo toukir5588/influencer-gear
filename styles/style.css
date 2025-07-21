@@ -209,6 +209,10 @@ button:hover {
   align-items: center;
 }
 
+/* .Featured_products_place img{
+  width: 100%;
+} */
+
 .Featured_products_place h2 {
   font-size: 2.375rem;
   font-weight: bold;
